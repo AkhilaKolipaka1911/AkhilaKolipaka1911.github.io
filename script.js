@@ -1,1 +1,1 @@
-alert("akhila");
+console.log("Hello Being zero")
