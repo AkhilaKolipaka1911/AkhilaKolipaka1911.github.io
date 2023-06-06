@@ -1,15 +1,28 @@
 
-h2{
-    color:rgb(193, 65, 174)
-}
 p{
   font-size: 40px;
   
 }
-table, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
+h2{
+  color: rgb(238, 122, 186);
 }
-th, td {
-  background-color: #96D4D4;
+.tableHead {
+  overflow-y: auto;
+  height: 100px;
+}
+.tableHead thead th {
+  position: sticky;
+  top: 0;
+}
+table {
+  border-collapse: collapse;        
+  width: 100%;
+}
+th,
+td {
+  padding: 8px 15px;
+  border: 2px solid #4f90ae;
+}
+th {
+  background: #93c4dd;
 }
